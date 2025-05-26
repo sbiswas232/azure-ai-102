@@ -2,7 +2,7 @@ using System.Text;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
 
-string azureKey = "8MD3Tnqxj2dSA25Tlfy6Pp788n61qKZMwwvxrFlvfQ5vfpyhubb0JQQJ99BCACYeBjFXJ3w3AAAAACOGpnUX";
+string azureKey = "xxxxxxxxxxxx";
 string azureLocation = "eastus";
 string textFile = "Shakespeare.txt";
 string waveFile = "Shakespeare.wav";
