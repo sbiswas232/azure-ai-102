@@ -1,0 +1,20 @@
+# This HTML link test succesfull
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
+
+
+--------------------------------------------------------------------------------------------------
+
+ python blob-app.py 
+Please enter the URL you want to analyze: https://aemonline.net
+
+Fetching content from: https://aemonline.net
+
+Extracted 17524 characters from the URL.
+
+Analyzing content with Azure Text Analytics...
+Error analyzing text: 'DocumentError' object has no attribute 'sentiment'. The service was unable to process this document:
+Document Id: 0
+Error: InvalidDocument - A document within the request was too large to be processed. Document contains 17524 text elements. Limit document size to: 5120 text elements. For additional details on the data limitations see https://aka.ms/text-analytics-data-limits
+
+Failed to analyze the text.
